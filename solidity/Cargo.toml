@@ -8,3 +8,8 @@ edition = "2021"
 serde = { version = "1.0", features = ["derive"] }
 eth-lang-utils = { path = "../eth-lang-utils" }
 yul = { path = "../yul" }
+
+[lib]
+name = "solidity"
+path = "src/lib.rs"
+
